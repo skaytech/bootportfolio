@@ -1,0 +1,50 @@
+#main-header h1 {
+  font-size: 3.5rem;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+#main-header img {
+  width: 100%;
+  height: 100%;
+}
+
+#main-header .port-item {
+  width: 30%;
+}
+
+#main-header .port-item:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.bg-black {
+  background: #000;
+  color: #fff;
+}
+
+@media (min-width: 1199px) {
+  .port-item {
+    padding: 3em !important;
+  }
+}
+
+@media (min-width: 500px) {
+  #main-header h1 {
+    font-size: 2.5rem;
+    font-weight: 200;
+    line-height: 1.0;
+  }
+  #main-header .sicon {
+    margin-right: 5px;
+  }
+}
+
+@media (min-width: 375px) {
+  #main-header .port-item {
+    width: 25%;
+  }
+  #main-header .sicon {
+    margin-right: 5px;
+  }
+}
